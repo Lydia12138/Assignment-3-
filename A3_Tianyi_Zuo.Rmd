@@ -89,3 +89,15 @@ NewData %>% group_by(Nutrients) %>%
 write.csv(NewData, "Output/WrangledData.csv", row.names = FALSE)
 ```
 
+## Test the function
+```{r}
+Vector <- c(1,2,3,4,5,6,7,8,9,10)
+# here I used this vector to test my function.  The output should be average = 5.5, sum = 55, Observation = 10 for this vector
+my_function(Vector, "Average")
+```
+```{r}
+my_function(Vector, "Sum")
+```
+```{r}
+my_function(Vector, "Observation")
+```
