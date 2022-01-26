@@ -6,6 +6,7 @@ output: html_document
 ---
 
 ### GitHub username: Lydia12138
+### Date: 2022-01-26 Repo:https://github.com/Lydia12138/Assignment-3-
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
